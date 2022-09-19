@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
+
+.row{
+  display: grid;
+  gap: 25px;
+
+}
+h3{
+  font-family: Barlow Semi Condensed;
+ 
+}
+h5, h4{
+  color: hsl(0, 0%, 81%);
+}
+.para2{
+  font-family: Barlow Semi Condensed;
+  color: white;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+.div{
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 5px; 
+}
+
+span{
+  color: hsl(0, 0%, 81%);
+}
+img{
+  border-radius: 70px;
+}
+.bg{
+  float: right;
+}
+.row2{
+  background-color: hsl(217, 19%, 35%);
+  padding: 10px;
+  border-radius: 5px;
+}
+.div4{
+ height: 80px;
+}
+.div3{
+  float: left;
+  margin: 10px;
+
+}
+.row3{
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.div h3{
+  color: white;
+}
+.row2 h3{
+  color: white;
+}
+.row4{
+  background-color:  hsl(219, 29%, 14%);
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+}
+.row5{
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 700px){
+  .row{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .row-col{
+    grid-column: span 2;
+  }
+  .row5{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .Para{
+    text-align: center;
+  }
+
+
+}
+
